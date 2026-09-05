@@ -67,35 +67,8 @@ MySQL             Relational database
 Maven             Build and dependency management
 Eclipse IDE       Development environment
 
-🏗️ Project Structure
 
-src/main/java
-│
-├── RamBasePackage
-│   └── SpringBoot5MvcApp3StudentFormApplication.java
-│
-├── RamBasePackage.Controller
-│   └── StudentController.java
-│
-├── RamBasePackage.Entity
-│   └── Student.java
-│
-├── RamBasePackage.Exception
-│   └── EmailAlreadyExistsException.java
-│
-├── RamBasePackage.Repo
-│   └── StudentRepository.java
-│
-└── RamBasePackage.Service
-    └── StudentService.java
 
-src/main
-└── webapp
-    ├── about.jsp
-    ├── display.jsp
-    ├── home.jsp
-    ├── studentForm.jsp
-    └── update.jsp
 
 🔄 Application Flow
 
