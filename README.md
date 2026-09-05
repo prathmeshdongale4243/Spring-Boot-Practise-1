@@ -23,17 +23,17 @@ Student Management System is a web-based application developed using Java and Sp
 
 The application provides a simple and user-friendly interface to:
 
-Register new students
+1.Register new students
 
-View registered student records
+2.View registered student records
 
-Update student information
+3.Update student information
 
-Delete student records
+4.Delete student records
 
-Validate submitted form data
+5.Validate submitted form data
 
-Prevent duplicate email registration
+6.Prevent duplicate email registration
 
 The project demonstrates practical implementation of a layered architecture, MVC pattern, CRUD operations, database connectivity, form validation, and custom exception handling.
 
@@ -43,64 +43,20 @@ The application follows a layered architecture:
 
 Layer
 
-Responsibility
 
-Controller Layer
+1.Controller Layer :- Handles HTTP requests, responses and page navigation
 
-Handles HTTP requests, responses and page navigation
+2.Service Layer :- Contains application business logic
 
-Service Layer
+3.Repository Layer :- Performs database operations using Spring Data JPA
 
-Contains application business logic
+4.Entity Layer :- Represents database tables using JPA entities
 
-Repository Layer
+5.Exception Layer :- Handles application-specific exceptions
 
-Performs database operations using Spring Data JPA
+6.View Layer:- Provides JSP/JSTL-based user interface
 
-Entity Layer
 
-Represents database tables using JPA entities
-
-Exception Layer
-
-Handles application-specific exceptions
-
-View Layer
-
-Provides JSP/JSTL-based user interface
-
-🔄 Application Flow
-
-┌─────────────────────────┐
-│          User           │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│     JSP / HTML / CSS    │
-│       Bootstrap         │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│     Spring MVC          │
-│       Controller        │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│      Service Layer      │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│    Repository Layer     │
-│    Spring Data JPA      │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│ Hibernate / JPA / ORM   │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│      MySQL Database     │
-└─────────────────────────┘
 
 🚀 Features
 
@@ -184,35 +140,6 @@ Eclipse IDE
 
 Development environment
 
-📂 Project Structure
-
-src/main/java
-│
-├── RamBasePackage
-│   └── SpringBoot5MvcApp3StudentFormApplication.java
-│
-├── RamBasePackage.Controller
-│   └── StudentController.java
-│
-├── RamBasePackage.Entity
-│   └── Student.java
-│
-├── RamBasePackage.Exception
-│   └── EmailAlreadyExistsException.java
-│
-├── RamBasePackage.Repo
-│   └── StudentRepository.java
-│
-└── RamBasePackage.Service
-    └── StudentService.java
-
-src/main
-└── webapp
-    ├── about.jsp
-    ├── display.jsp
-    ├── home.jsp
-    ├── studentForm.jsp
-    └── update.jsp
 
 💾 CRUD Operations
 
@@ -419,39 +346,6 @@ This project is created for learning and educational purposes.
 ⭐ If you find this project useful, consider giving it a star!
 
 </div>
-Home Page
-<img width="1111" height="865" alt="image" src="https://github.com/user-attachments/assets/2ac7fdd5-c195-4d73-bd92-9e13eed6f775" />
-
-
-
-Student Registration Page
-1. Form Data Validation
-<img width="1154" height="907" alt="image" src="https://github.com/user-attachments/assets/bc7b6042-18f3-4dab-9819-00090280e7d2" />
-
-
-
-2.Correct Data Enter And Register student
-<img width="1108" height="915" alt="image" src="https://github.com/user-attachments/assets/37f4c24a-02fb-4152-a345-1b0cc6b21f98" />
-
-
-
-Display Students
-<img width="1145" height="334" alt="image" src="https://github.com/user-attachments/assets/87369755-1c41-4ea9-ade9-de01691b71e0" />
-
-
-
-Update Students Records
-<img width="1106" height="844" alt="image" src="https://github.com/user-attachments/assets/6a029edc-61c1-4c59-bff5-8e18628e9ddb" />
-
-
-
-Delete Students Records
-<img width="1152" height="345" alt="image" src="https://github.com/user-attachments/assets/55e5830e-79d1-40ff-abba-ca7e32c5d508" />
-
-
-
-About Page
-<img width="1127" height="859" alt="image" src="https://github.com/user-attachments/assets/7a557463-9c1f-4bf4-acae-0d853086ad62" /><imgwidth="1117" height="392" alt="image" src="https://github.com/user-attachments/assets/56cad153-32ce-42fa-ac82-120a3244f63a" />
 
 
 
